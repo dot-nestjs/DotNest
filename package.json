@@ -1,0 +1,10 @@
+{
+  "name": "dotnest",
+  "version": "1.0.0",
+  "workspaces": [
+    "dotnest-app",
+    "dotnest-core"
+  ],
+  "author": "jack.wong@j1.business",
+  "license": "UNLICENSED"
+}
