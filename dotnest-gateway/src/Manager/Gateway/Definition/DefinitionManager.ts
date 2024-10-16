@@ -1,4 +1,4 @@
-import { ListDefinitionResult } from "src/Result/Gateway/Definition/ListDefinitionResult";
+import { ListDefinitionResult } from "../../../Result/Gateway/Definition/ListDefinitionResult";
 import { IDefinitionManager } from "../../../IManager/Gateway/Definition/IDefinitionManager";
 import { CreateDefinitionPayload } from "../../../IManager/Gateway/Definition/Payload/CreateDefinitionPayload";
 

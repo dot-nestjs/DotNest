@@ -12,8 +12,8 @@ import {
   WebApplicationPreStartupEvent,
 } from '..';
 import { TriggerEventPayload } from './Payload/TriggerEventPayload';
-import { Core } from 'src/Core';
-import { Parallel } from 'src/Util';
+import { Core } from '../../Core';
+import { Parallel } from '../../Util';
 
 export class EventTrigger {
   public static async executeAllDependencyInjectionConfigureAsync(

@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common/decorators";
-import { IProxyManager } from "src/IManager/Gateway/Proxy/IProxyManager";
-import { ISwaggerManager } from "src/IManager/Gateway/Swagger/ISwaggerManager";
-import { SwaggerDetailPayload } from "src/IManager/Gateway/Swagger/Payload/SwaggerDetailPayload";
+import { IProxyManager } from "../../../IManager/Gateway/Proxy/IProxyManager";
+import { ISwaggerManager } from "../../../IManager/Gateway/Swagger/ISwaggerManager";
+import { SwaggerDetailPayload } from "../../../IManager/Gateway/Swagger/Payload/SwaggerDetailPayload";
 
 @Injectable()
 export class SwaggerManager implements ISwaggerManager {
