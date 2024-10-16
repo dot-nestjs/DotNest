@@ -1,7 +1,6 @@
 import { ManagerResult } from './Result/ManagerResult';
 import * as fs from 'fs';
 import * as path from 'path';
-import { Parallel } from 'src/Util';
 
 export class Scanner {
   public static async scanAsync(

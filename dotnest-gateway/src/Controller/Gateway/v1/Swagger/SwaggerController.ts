@@ -1,6 +1,6 @@
 import { Controller, Get, Param } from "@nestjs/common";
 import { GatewayController } from "../GatewayController";
-import { ISwaggerManager } from "src/IManager/Gateway/Swagger/ISwaggerManager";
+import { ISwaggerManager } from "../../../../IManager/Gateway/Swagger/ISwaggerManager";
 
 @Controller("swagger-json")
 export class SwaggerController implements GatewayController {
