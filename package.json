@@ -1,10 +1,29 @@
 {
-  "name": "dotnest",
+  "name": "@dotnest/app",
   "version": "1.0.0",
-  "workspaces": [
-    "dotnest-app",
-    "dotnest-core"
-  ],
+  "description": "",
   "author": "jack.wong@j1.business",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "scripts": {
+    "prestart": "rm -rf dist",
+    "start": "nest start"
+  },
+  "dependencies": {
+    "@dotnest/common": "20250227.0.1",
+    "@dotnest/core": "20250227.0.2",
+    "@nestjs/common": "11.0.10",
+    "@nestjs/swagger": "11.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.5",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.2",
+    "typescript": "5.7.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@nestjs/core",
+      "@scarf/scarf"
+    ]
+  }
 }
